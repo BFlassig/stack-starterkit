@@ -112,6 +112,11 @@ a mailpit service handles local SMTP testing
 
 For the default workflow, Docker is fully sufficient.
 
+Dependency directories are intentionally not committed:
+
+- `vendor/` is installed from `composer.lock`
+- `node_modules/` is installed from `pnpm-lock.yaml`
+
 ## Quick Start (Local with Docker)
 
 1. Clone the repository:
